@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ES6", // The target ECMAScript version for your project
+    "module": "ESNext", // The module system to use (e.g., ESNext, CommonJS)
+    "outDir": "./dist", // The directory where transpiled JavaScript files will be output
+    "rootDir": "./src", // The root directory of your TypeScript source files
+    "strict": true, // Enable strict type checking
+    "esModuleInterop": true, // Allows using default imports with CommonJS modules
+    "noImplicitReturns": true, // Reports an error when not all code paths return a value
+    "noUnusedLocals": true, // Reports an error when a local variable is declared but never used
+    "noUnusedParameters": true, // Reports an error when a function parameter is declared but never used
+    "jsx": "react", // Specifies JSX transpilation (e.g., "react", "preserve", "react-native")
+    "skipLibCheck": true, // Skip type checking of declaration files
+    "forceConsistentCasingInFileNames": true, // Enforces consistent casing of file names
+    "declaration": true, // Generate declaration files (.d.ts)
+    "allowJs": false, // Disallow JavaScript files to be mixed with TypeScript
+    "allowImportingTsExtensions": true, // Allow importing .ts files even if they are not part of compilation
+    "emitDeclarationOnly": true, // Emit declarations
+    "moduleResolution": "node" // Specify module resolution strategy (e.g., "node", "classic")
+  },
+  "include": ["src/**/*"], // The files and directories to include in compilation
+  "exclude": ["node_modules"] // The files and directories to exclude from compilation
+}
